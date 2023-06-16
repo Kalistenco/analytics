@@ -1,9 +1,9 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { Button, TextField } from "@mui/material";
 
 const Login = () => {
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     return (<div style={{
         width: "430px",
@@ -78,7 +78,7 @@ const Login = () => {
                 fontSize: "18px",
 
             }}
-            onClick={() => navigate("/dashboard")}
+            // onClick={() => navigate("/dashboard")}
         >Iniciar sesión</Button>
 
     </div>)
