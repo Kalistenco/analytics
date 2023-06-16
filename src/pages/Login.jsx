@@ -1,11 +1,12 @@
-// import { useNavigate } from "react-router-dom";
 import { Button, TextField } from "@mui/material";
+import Dashboard from "./Dashboard";
 
 const Login = () => {
 
-    // const navigate = useNavigate();
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-    return (<div style={{
+    return isLoggedIn ? (
+    <div style={{
         width: "430px",
         display: "flex",
         flexDirection: "column",
@@ -78,10 +79,9 @@ const Login = () => {
                 fontSize: "18px",
 
             }}
-            // onClick={() => navigate("/dashboard")}
+            onClick={() => setIsLoggedIn(true)}
         >Iniciar sesión</Button>
-
-    </div>)
+    </div>) : (<Dashboard />)
 };
 
 export default Login;
