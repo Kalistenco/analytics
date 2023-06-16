@@ -6,7 +6,7 @@ const Login = () => {
 
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-    return isLoggedIn ? (
+    return !isLoggedIn ? (
     <div style={{
         width: "430px",
         display: "flex",
