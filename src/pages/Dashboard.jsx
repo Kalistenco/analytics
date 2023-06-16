@@ -1,23 +1,23 @@
 import { PowerBIEmbed } from 'powerbi-client-react';
 import { models } from 'powerbi-client';
 import './Dashboard.css';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 const Dashboard = () => {
 
-    const ws = new WebSocket('ws://15.229.178.29:8080/analytics')
+    // const ws = new WebSocket('ws://15.229.178.29:8080/analytics')
 
-    useEffect(() => {
-        ws.onopen = () => {
-            console.log("React client");
-            ws.send("Hi from react")
-        }
+    // useEffect(() => {
+    //     ws.onopen = () => {
+    //         console.log("React client");
+    //         ws.send("Hi from react")
+    //     }
 
-        ws.onmessage = (data) => {
-            console.log("Message is ", data)
-        }
+    //     ws.onmessage = (data) => {
+    //         console.log("Message is ", data)
+    //     }
 
-    }, [])
+    // }, [])
 
     return (<>
         <PowerBIEmbed
