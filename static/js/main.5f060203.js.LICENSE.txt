@@ -54,6 +54,8 @@
 
 /*! powerbi-router v0.1.5 | (c) 2016 Microsoft Corporation MIT */
 
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
 /*! window-post-message-proxy */
 
 /*! window-post-message-proxy v0.2.6 | (c) 2016 Microsoft Corporation MIT */
