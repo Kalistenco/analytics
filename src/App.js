@@ -4,13 +4,13 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div style={{
-      display: "flex",
-      flexDirection: "column"
-    }}>
-      <Header />
-      <Login />
-    </div>
+      <div style={{
+        display: "flex",
+        flexDirection: "column"
+      }}>
+        <Header />
+        <Login />
+      </div>
   );
 }
 
